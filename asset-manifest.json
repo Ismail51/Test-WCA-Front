@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ismail51/Test-WCA-Front/static/css/main.06d994bb.css",
+    "main.js": "/Ismail51/Test-WCA-Front/static/js/main.4c00488e.js",
+    "static/js/787.cdad6d73.chunk.js": "/Ismail51/Test-WCA-Front/static/js/787.cdad6d73.chunk.js",
+    "index.html": "/Ismail51/Test-WCA-Front/index.html",
+    "main.06d994bb.css.map": "/Ismail51/Test-WCA-Front/static/css/main.06d994bb.css.map",
+    "main.4c00488e.js.map": "/Ismail51/Test-WCA-Front/static/js/main.4c00488e.js.map",
+    "787.cdad6d73.chunk.js.map": "/Ismail51/Test-WCA-Front/static/js/787.cdad6d73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06d994bb.css",
+    "static/js/main.4c00488e.js"
+  ]
+}
