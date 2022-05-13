@@ -5,7 +5,7 @@ import Squad from './Squad'
 function Form() {
   const [liste, setList] = useState([])
   const getElement = () => {
-    axios.get('http://localhost:3007/').then(data => {
+    axios.get('https://testwca.herokuapp.com/').then(data => {
       console.log(data);
       setList(data.data)
     })
@@ -22,7 +22,7 @@ function Form() {
     console.log('ookok');
     axios({
       method: 'post',
-      url: 'http://localhost:3007/',
+      url: 'https://testwca.herokuapp.com/',
       data: {
         name: name
       }
