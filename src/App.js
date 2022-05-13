@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './Components/Header'
+import './App.css'
+import Form from './Components/Form'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header></Header>
+      <Form></Form>
+      <footer>
+        <p>Réalisé par Jason en Anthestérion de l'an 515 avant JC</p>
+      </footer>
+    </>
+  )
 }
 
-export default App;
+export default App
